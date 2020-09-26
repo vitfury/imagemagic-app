@@ -1,7 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="97aee6fe-bf94-4e85-b093-778ef3f3bff5" name="Default Changelist" comment="" />
+    <list default="true" id="97aee6fe-bf94-4e85-b093-778ef3f3bff5" name="Default Changelist" comment="Api routes &amp; main page added">
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-BlackItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-ExtraBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-ExtraBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-ExtraLight.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-ExtraLightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-Light.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-LightItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-Regular.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-RegularItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-SemiBold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-SemiBoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-Thin.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/Metropolis-ThinItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/fonts/metropolis/SIL Open Font License.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/app-desktop-demo-screenshot.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/app-store-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/avataaars.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/brand-logos/dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/brand-logos/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/brand-logos/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/brand-logos/mailchimp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/brand-logos/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/brand-logos/product-hunt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/Macbook/macbook.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/Macbook/portrait_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/Macbook/portrait_gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/Macbook/portrait_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/MacbookPro/MacbookPro.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/MacbookPro/portrait_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPadPro/iPad-Pro-Mockup.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPadPro/landscape_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPadPro/landscape_gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPadPro/landscape_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPadPro/portrait_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPadPro/portrait_gold.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPadPro/portrait_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPhoneX/landscape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPhoneX/landscape_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPhoneX/portrait.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/device-mockups/iPhoneX/portrait_black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/drawkit/color/drawkit-content-man-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/drawkit/color/drawkit-social-feed-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/drawkit/color/drawkit-user-mobile-color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/google-play-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/pattern-shapes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/header-basic-signup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/header-basic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/header-graphic-signup.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/header-graphic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/header-inner-page.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/header-nav-only.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-agency.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-app-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-app-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-classifieds.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-directory.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-lead-capture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-multipurpose.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-portfolio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-press.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-real-estate.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-rental.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/screenshots/landing-resume.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/video/video.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uikit/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/uikit/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/storage/framework/cache/data/.gitignore" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -113,7 +207,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -121,6 +215,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -141,5 +240,49 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="387" y="100" key="CommitChangelistDialog2" timestamp="1601045001802">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="387" y="100" key="CommitChangelistDialog2/0.0.1680.1050@0.0.1680.1050" timestamp="1601045001802" />
   </component>
 </project>
