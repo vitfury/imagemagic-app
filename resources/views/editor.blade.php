@@ -5,7 +5,6 @@
         <title>Stickerpack creator</title>
         <link type="text/css" href="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.css" rel="stylesheet">
         <link type="text/css" href="../dist/tui-image-editor.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/tuiimagecontainer.css">
         @include("common.head")
         <style>
             @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
