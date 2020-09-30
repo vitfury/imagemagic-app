@@ -46,7 +46,7 @@
 
 
 .editor-sidebar-logo, .editor-sidebar-controls {
-    margin: 20px 0 40px 0;
+    margin: 40px 0 40px 0;
 }
 
 .editor-sidebar-controls {
@@ -64,6 +64,7 @@
 .editor-sidebar-logo > img {
     height: 150px;
 }
+
 
 
 .logostyles {

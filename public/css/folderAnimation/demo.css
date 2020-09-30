@@ -125,10 +125,10 @@ a:focus {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
 	padding: 0 0 1em;
-	height: 100vh;
+	height: 100%;
 	min-height: 400px;
 	overflow: hidden;
 }
@@ -478,22 +478,16 @@ a:focus {
 	transform-origin: -600% 50%;
 }
 
-/* kubera */
-.content--kubera {
-	background-color: #41f0b0;
-	color: #4ccf9f;
-}
-
 .content--kubera::after {
 	color: #2d2f2f;
 }
 
 .folder--kubera .folder__icon-img--back {
-	color: #121313;
+	color: #184542;
 }
 
 .folder--kubera .folder__icon-img--cover {
-	color: #2d2f2f;
+	color: #486d6a;
 }
 
 .folder--kubera .folder__icon-svg--deco {
@@ -501,7 +495,12 @@ a:focus {
 }
 
 .folder--kubera .folder__caption {
-	color: #2d2f2f;
+	color: #e5e2d4;
+    font-size: 1.3em;
+}
+
+.folder--kubera {
+    text-align: center;
 }
 
 /* hari */
