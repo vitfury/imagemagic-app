@@ -18,13 +18,12 @@
     <body>
        <div class="editorheight">
            <div class="bootstrap row no-gutters editorheight">
-               <div class="col-3 blackleftside">
+               <div class="col-2 blackleftside">
                  @include("sidebar")
 </div>
-               
-               <div class="col-9 editorheight">
+
+               <div class="col-10 editorheight">
                <div id="tui-image-editor-container"></div>
-               </div>
            </div>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.0/fabric.js"></script>
         <script type="text/javascript" src="https://uicdn.toast.com/tui.code-snippet/v1.5.0/tui-code-snippet.min.js"></script>

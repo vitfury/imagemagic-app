@@ -1,34 +1,22 @@
-<div class="sidebar-container">
-  <div class="sidebar-logo">
-    Project Name
-  </div>
-  <ul class="sidebar-navigation">
-    <li class="header">Navigation</li>
-    <li>
-      <a href="#">
-        <i class="fa fa-home" aria-hidden="true"></i> Homepage
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i class="fa fa-tachometer" aria-hidden="true"></i> Dashboard
-      </a>
-    </li>
-    <li class="header">Another Menu</li>
-    <li>
-      <a href="#">
-        <i class="fa fa-users" aria-hidden="true"></i> Friends
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i class="fa fa-cog" aria-hidden="true"></i> Settings
-      </a>
-    </li>
-    <li>
-      <img src="img/14.png" width="25%" alt="">
-      <img src="img/14.png" width="25%" alt="">
-      <img src="img/14.png" width="25%" alt="">
-    </li>
-  </ul>
+<div class="editor-sidebar">
+    <div class="editor-sidebar-logo d-flex justify-content-around">
+
+    </div>
+
+    <div class="editor-sidebar-controls">
+        <button class="btn btn-save btn-xl d-flex align-items-center">
+            <i class="far fa-save"></i> <span>Save</span>
+        </button>
+        <button class="btn btn-new btn-xl d-flex align-items-center">
+            <i class="fas fa-plus"></i> <span>New</span>
+        </button>
+    </div>
+
+    <div class="editor-sidebar-stickers">
+
+    </div>
+
+    <div class="editor-sidebar-navigation">
+
+    </div>
 </div>
