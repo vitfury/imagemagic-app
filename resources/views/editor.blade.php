@@ -17,7 +17,7 @@
     <body>
        <div class="editorheight">
            <div class="bootstrap row no-gutters editorheight">
-               <div class="col-2 blackleftside">
+               <div class="col-2 sidebar-wrapper">
                  @include("sidebar")
 </div>
 
