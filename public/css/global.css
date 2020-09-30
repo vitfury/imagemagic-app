@@ -1,0 +1,68 @@
+.tui-image-editor-container .tui-image-editor {
+    background: url(../img/transparency.png);
+}
+
+
+
+
+.editorheight {
+    width:100%;
+    height: 100%;
+  
+}
+
+.btn-save {
+    color: #fff;
+    background-color: #272626;
+}
+.btn-save:hover {
+    color: #fff;
+    background-color: #5a5a5a;
+}
+.btn-save:focus, .btn-save.focus {
+    color: #fff;
+    background-color: #5a5a5a;
+    border-color: #5a5a5a;
+    border-width:2px;
+    outline:none;
+    box-shadow:none;
+}
+.btn-new {
+    color: #fff;
+    background-color: #272626;
+}
+.btn-new:hover {
+    color: #fff;
+    background-color: #5a5a5a;
+}
+.btn-new:focus, .btn-new.focus {
+    color: #fff;
+    background-color: #5a5a5a;
+    border-color: #5a5a5a;
+    border-width:2px;
+    outline:none;
+    box-shadow:none;
+}
+.editor-sidebar-controls {
+    display: flex;
+    justify-content: space-evenly;
+}
+.editor-sidebar-controls > button {
+    font-size:1em;
+}
+.editor-sidebar-controls > button > .svg-inline--fa {
+    font-size:1.3em;
+    margin-right:0.5em
+}
+.editor-sidebar-logo {
+    height:100px;
+}
+
+
+.logostyles {
+    height: 128px;
+    position: absolute;
+    z-index: 999;
+    top: 4px;
+    left: 75px;
+}
