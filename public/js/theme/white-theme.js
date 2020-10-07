@@ -1,5 +1,5 @@
 var whiteTheme = {
-    'common.bi.image': 'https://i.ibb.co/rMBcp8L/tui-image-editor-bi.png',
+    'common.bi.image': '',
     'common.bisize.width': '251px',
     'common.bisize.height': '21px',
     'common.backgroundImage': './img/bg.png',

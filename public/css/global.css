@@ -6,11 +6,11 @@
 
 
 .editorheight {
-    width:100%;
-    height: 100%;
-
+   height: 100vh;
 }
-
+.editor-sidebar {
+    height: 100vh;
+}
 .btn-save {
     color: #fff;
     background-color: #272626;
@@ -21,10 +21,7 @@
 }
 .btn-save:focus, .btn-save.focus {
     color: #fff;
-    background-color: #5a5a5a;
-    border-color: #5a5a5a;
-    border-width:2px;
-    outline:none;
+    outline: none;
     box-shadow:none;
 }
 .btn-new {
@@ -36,25 +33,43 @@
     background-color: #5a5a5a;
 }
 .btn-new:focus, .btn-new.focus {
-    color: #fff;
-    background-color: #5a5a5a;
-    border-color: #5a5a5a;
-    border-width:2px;
+    color: #ff;
     outline:none;
     box-shadow:none;
 }
 
-
-.editor-sidebar-logo, .editor-sidebar-controls {
-    margin: 40px 0 40px 0;
+.btn-new:active {
+    background-color: #486d6a;
+    border-radius: 5%;
 }
 
+.btn-save:active {
+    background-color: #486d6a;
+    border-radius: 5%;
+}
+.sidebar-btn {
+    width: 45%;
+    text-align: center;
+}
+
+
+
+
+
+.editor-sidebar-logo, .editor-sidebar-controls {
+    padding: 40px 0 40px 0;
+    
+}
+.editor-sidebar-logo {
+    height: 25vh;
+}
 .editor-sidebar-controls {
+    height: 15vh;
     display: flex;
     justify-content: space-evenly;
 }
 .editor-sidebar-controls > button {
-    font-size:1em;
+    font-size:0.9rem;
 }
 .editor-sidebar-controls > button > .svg-inline--fa {
     font-size:1.3em;
@@ -65,12 +80,58 @@
     height: 150px;
 }
 
+.sidebar-folder {
+   
+}
 
 
-.logostyles {
-    height: 128px;
-    position: absolute;
-    z-index: 999;
-    top: 4px;
-    left: 75px;
+.editor-sidebar-stickers {
+    height: 40vh;
+   
+}
+
+
+
+
+
+/* block editor */
+.tui-image-editor-header {
+    display: none;
+}
+
+.tui-image-editor-controls {
+    min-height: 100px;
+   bottom: calc(100vh - 100px) !important;
+}
+
+.tui-image-editor-main-container {
+    height: 100vh;
+}
+
+.tui-image-editor-submenu-style {
+    background-color: #151515;
+}
+
+/* .tui-image-editor-submenu-item {
+    margin-top: 20px !important; RESHENIE
+} */
+
+
+.tui-image-editor-range-wrap label {
+    padding-bottom: 5px;
+}
+
+
+
+.editor-sidebar-navigation {
+    border: 2px solid #6ea174;
+    border-radius: 5px;
+    margin: 10px 10px 10px 10px;
+    background-color: ;
+}
+
+
+.page-header {
+    padding-top: 3rem !important;
+    padding-bottom: 7rem !important;
 }

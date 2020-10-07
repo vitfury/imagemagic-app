@@ -1,5 +1,5 @@
 var blackTheme = {
-    'common.bi.image': 'https://i.ibb.co/rMBcp8L/tui-image-editor-bi.png',
+    'common.bi.image': '',
     'common.bisize.width': '251px',
     'common.bisize.height': '21px',
     'common.backgroundImage': 'none',
@@ -40,7 +40,6 @@ var blackTheme = {
     'submenu.iconSize.height': '32px',
 
     // submenu primary color
-    'submenu.backgroundColor': '#1e1e1e',
     'submenu.partition.color': '#3c3c3c',
 
     // submenu labels
