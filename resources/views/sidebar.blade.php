@@ -6,7 +6,7 @@
 
 <div class="editor-sidebar">
     <div class="editor-sidebar-logo d-flex justify-content-around">
-        <img src="/img/stickerpack_logo.png">
+        <img src="/img/logo.png">
     </div>
 
  

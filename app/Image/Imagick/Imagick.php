@@ -1,14 +1,27 @@
 <?php
 
-class imagickService
+namespace App\Image\Imagick;
+
+use App\Storage\Local\TempStorageService;
+
+class Imagick
 {
-    public function resize()
+    private $imagePath;
+
+    public function __construct(string $imagePath)
     {
-        $image = new \Imagick('~/sample.png');
+        $this->imagePath = $imagePath;
+    }
 
-        $image->resizeImage(256, 350, Imagick::FILTER_CATROM, 0);
+    public function resize($width, $height)
+    {
+        $image = new \Imagick($this->imagePath);
 
-        header("Content-Type: image/png");
-        echo $image->getImageBlob();
+        $extension = $image->getImageFormat();
+        $image->thumbnailImage($width, $height, true, true);
+        header("Content-Type: image/$extension");
+        $resizedImageContent = $image->getImageBlob();
+
+        return (new TempStorageService())->saveResizedImage($resizedImageContent, strtolower($extension));
     }
 }
