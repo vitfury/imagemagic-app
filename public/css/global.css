@@ -135,3 +135,35 @@
     padding-top: 3rem !important;
     padding-bottom: 7rem !important;
 }
+
+.foursblock-main-page {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
+}
+
+
+.logostylesdesktop {
+    height:96px;
+}
+.logostylemobilefox {
+    display: none;
+}
+.logostylemobilesign {
+    display: none;
+}
+
+
+
+
+@media (max-width: 992px) {
+        .logostylesdesktop {
+        display: none;
+        }
+
+        .logostylemobilefox {
+            height: 50px;
+        }
+        .logostylemobilesign {
+            height: 50px;
+        }
+}
