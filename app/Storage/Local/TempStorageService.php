@@ -1,6 +1,6 @@
 <?php
 
-namespace Storage\Local;
+namespace App\Storage\Local;
 
 use Carbon\Carbon;
 use Illuminate\Filesystem\Filesystem;
@@ -49,11 +49,11 @@ class TempStorageService
         }
     }
 
-    public function saveTempImage(string $content, $filename)
+    public function saveTempImage(string $content)
     {
         $folderPath = storage_path().self::TEMP_SOURCE_IMAGES_PATH . $this->getCurrentTempFolder();
         $this->createIfNotExist($folderPath);
-        $filePath = $folderPath . DIRECTORY_SEPARATOR . $filename;
+        $filePath = $folderPath . DIRECTORY_SEPARATOR . $this->generateFilename() . '.png';
         (new Filesystem)->put($filePath, $content);
         return $filePath;
     }
@@ -62,14 +62,23 @@ class TempStorageService
     {
         $folderPath = storage_path().self::TEMP_UNBACKGROUNDED_IMAGES_PATH . $this->getCurrentTempFolder();
         $this->createIfNotExist($folderPath);
-        $filePath = $folderPath . DIRECTORY_SEPARATOR . $this->generateFilename();
+        $filePath = $folderPath . DIRECTORY_SEPARATOR . $this->generateFilename() . '.png';
+        (new Filesystem)->put($filePath, $content);
+        return $filePath;
+    }
+
+    public function saveResizedImage($content, $extension)
+    {
+        $folderPath = storage_path().self::TEMP_RESIZED_IMAGES_PATH . $this->getCurrentTempFolder();
+        $this->createIfNotExist($folderPath);
+        $filePath = $folderPath . DIRECTORY_SEPARATOR . $this->generateFilename()  . ".$extension";
         (new Filesystem)->put($filePath, $content);
         return $filePath;
     }
 
     public function getUnbackgroundedImagePath($filename)
     {
-        $folderPath = storage_path().self::TEMP_RESIZED_IMAGES_PATH . $this->getCurrentTempFolder();
+        $folderPath = storage_path().self::TEMP_UNBACKGROUNDED_IMAGES_PATH . $this->getCurrentTempFolder();
         $this->createIfNotExist($folderPath);
         return $folderPath . DIRECTORY_SEPARATOR . $filename;
     }

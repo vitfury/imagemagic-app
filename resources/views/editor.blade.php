@@ -36,8 +36,8 @@
          var imageEditor = new tui.ImageEditor('#tui-image-editor-container', {
              includeUI: {
                  loadImage: {
-                     path: 'img/sampleImage2.png',
-                     name: 'SampleImage'
+                     path: 'img/new.png',
+                     name: 'Sticker'
                  },
                  theme: blackTheme, // or whiteTheme
                  initMenu: 'filter',
