@@ -26,9 +26,13 @@ class ImageController extends BaseController
         $width = $dimensions['width'];
         $height = $dimensions['height'];
         $imageContent = base64_decode($image);
-        $tempImagePath = (new TempStorageService)->saveTempImage($imageContent);
-        (new Imagick($tempImagePath))->resize($width, $height);
-        return response()->json(['result' => true], 200);
+        $sourceImagePath = (new TempStorageService)->saveTempImage($imageContent);
+        $resultImagePath = (new Imagick($sourceImagePath))->resize($width, $height);
+        $resultContent = file_get_contents($resultImagePath);
+        return response()->json([
+            'result' => true,
+            'image' => base64_encode($resultContent)
+        ], 200);
     }
 
     /**
