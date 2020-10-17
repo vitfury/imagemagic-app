@@ -1,8 +1,17 @@
-<nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
-                        <div class="container">
-                            <a class="" href="index.html"><img class="logostylesdesktop" src="img/logodesktop.png" alt="logo"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
-                            <a class="" href="index.html"><img class="logostylesdesktop" src="img/logodesktop.png" alt="logo"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
-                            <a class="" href="index.html"><img class="logostylesdesktop" src="img/logodesktop.png" alt="logo"></a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i data-feather="menu"></i></button>
+<nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light navbar__heigth">
+                        <div class="container headerlogos">
+                            <a class="logostylesdesktop" href="index.html"><img class="logostylesdesktop" src="img/logo.png" alt="logo">
+                            <div class="logo-mobile">
+                            <a class="Logo-mobile-fox-item" href="index.html"><img class="logostylemobilefox" src="img/fox.png" alt="logo">
+                            <a class="" href="index.html"><img class="logostylemobilesign" src="img/sign.png" alt="logo"></a>
+                            </div>
+                            <button class="navbar-toggler navbar-toggler__border" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <div class="hamburger-menu">
+  <input id="menu__toggle" type="checkbox" />
+  <label class="menu__btn" for="menu__toggle">
+    <span></span>
+  </label>
+                            </button>
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul class="navbar-nav ml-auto mr-lg-5">
                                     <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>
