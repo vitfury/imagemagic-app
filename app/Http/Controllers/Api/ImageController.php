@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Api;
 
+use Faker\Provider\Image;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
@@ -9,6 +10,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use App\Storage\Local\TempStorageService;
 use App\Image\Imagick\Imagick;
+use App\Image\ImageService;
 use App\Image\BackgroundWorker;
 
 class ImageController extends BaseController
@@ -23,15 +25,14 @@ class ImageController extends BaseController
     {
         $image = $request->get('image');
         $dimensions = $request->get('dimensions');
-        $width = $dimensions['width'];
-        $height = $dimensions['height'];
-        $imageContent = base64_decode($image);
-        $sourceImagePath = (new TempStorageService)->saveTempImage($imageContent);
-        $resultImagePath = (new Imagick($sourceImagePath))->resize($width, $height);
-        $resultContent = file_get_contents($resultImagePath);
+        if(empty($dimensions['width']) || empty($dimensions['height'])) {
+            $dimensions['width'] = ImageService::DEFAULT_STICKER_WIDTH;
+            $dimensions['height'] = ImageService::DEFAULT_STICKER_HEIGHT;
+        }
+        $resizedImage = (new ImageService)->resizeImage($image, $dimensions['width'], $dimensions['height']);
         return response()->json([
             'result' => true,
-            'image' => base64_encode($resultContent)
+            'image' => $resizedImage
         ], 200);
     }
 
@@ -42,8 +43,8 @@ class ImageController extends BaseController
     public function removeBackground(Request $request)
     {
         $image = $request->get('image');
-        $encodedImage = (new BackgroundWorker())->remove($image);
-        $unbackgroundedImagePath = (new TempStorageService())->saveUnbackgroundedImage(base64_decode($encodedImage));
+        $resizedImage = (new ImageService)->resizeImage($image);
+        $encodedImage = (new BackgroundWorker())->remove($resizedImage);
         return response()->json(['result'=> true, 'image'=> $encodedImage]);
     }
 
