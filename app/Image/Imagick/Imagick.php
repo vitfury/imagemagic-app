@@ -18,7 +18,7 @@ class Imagick
         $image = new \Imagick($this->imagePath);
 
         $extension = $image->getImageFormat();
-        $image->thumbnailImage($width, $height, true, true);
+        $image->thumbnailImage($width, $height, true, false);
         header("Content-Type: image/$extension");
         $resizedImageContent = $image->getImageBlob();
 

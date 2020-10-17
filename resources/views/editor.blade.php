@@ -18,7 +18,7 @@
   integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
   crossorigin="anonymous"></script>
     </head>
-    <body> 
+    <body>
 
 
 
@@ -55,7 +55,7 @@
                  },
                  theme: blackTheme, // or whiteTheme
                  initMenu: 'filter',
-                 menuBarPosition: 'bottom'
+                 menuBarPosition: 'left'
              },
              cssMaxWidth: 700,
              cssMaxHeight: 500,
