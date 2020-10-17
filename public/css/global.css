@@ -96,7 +96,7 @@
 
 
 .editor-sidebar-stickers {
-    height: 41vh;
+   
 }
 
 .editor-sidebar-controls {
@@ -119,14 +119,14 @@
 
 /* block editor */
 .tui-image-editor-header {
-    
+    height: 64px;
 }
 .tui-image-editor-header-logo {
     display: none;
 }
 
-.dot {
-    background-color: black;
+.tui-image-editor-header-buttons {
+    z-index: 9999;
 }
 
 .tui-image-editor-controls {
@@ -136,10 +136,10 @@
 .tui-image-editor-main-container {
     
 }
-.tui-image-editor-main {
-    top: 0 !important;
+.tui-image-editor-header {
+    background-color: #151515 !important;
+    opacity: 0.9;
 }
-
 .tui-image-editor-submenu-style {
     background-color: #151515;
 }
