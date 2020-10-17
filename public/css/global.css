@@ -119,16 +119,25 @@
 
 /* block editor */
 .tui-image-editor-header {
+    
+}
+.tui-image-editor-header-logo {
     display: none;
 }
 
+.dot {
+    background-color: black;
+}
+
 .tui-image-editor-controls {
-    min-height: 100px;
-    bottom: calc(100vh - 100px) !important;
+  
 }
 
 .tui-image-editor-main-container {
-    height: 100vh;
+    
+}
+.tui-image-editor-main {
+    top: 0 !important;
 }
 
 .tui-image-editor-submenu-style {

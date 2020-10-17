@@ -55,7 +55,7 @@
                  },
                  theme: blackTheme, // or whiteTheme
                  initMenu: 'filter',
-                 menuBarPosition: 'bottom'
+                 menuBarPosition: 'left'
              },
              cssMaxWidth: 700,
              cssMaxHeight: 500,
