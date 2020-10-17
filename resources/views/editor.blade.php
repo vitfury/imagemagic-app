@@ -31,8 +31,11 @@
                     <!-- <div class="col-10 editorheight">
                     <div id="tui-image-editor-container"></div>
                             </div> -->
-                            <div id="editor-progressBarDiv" class="editor-progressbar">
-            <img src="/img/loader.gif" alt=""  class="editor-progressBar_img">
+            <div id="editor-progressBarDiv" class="progressbar-overlay">
+                <div class="progressbar-container">
+                    <img src="/img/loader.gif" alt="" class="progressbar-picture">
+                    <div class="progressbar-text">Processing your image...</div>
+                </div>
             </div>
            <div class="col-12 editorheight">
                <div id="tui-image-editor-container"></div>
@@ -63,7 +66,24 @@
          });
          window.onresize = function() {
              imageEditor.ui.resizeEditor();
+             loaderPosition();
          }
+
+         function loaderPosition() {
+             var canvasOffset = $('.lower-canvas').offset();
+
+             var offsetTop = canvasOffset.top;
+             var offsetLeft = canvasOffset.left;
+
+             $('.progressbar-container').css('top', offsetTop);
+             $('.progressbar-container').css('left', offsetLeft);
+         }
+
+         setTimeout(function(){
+             loaderPosition();
+         }, 3000);
+
+
         </script>
      </div>
     </body>
