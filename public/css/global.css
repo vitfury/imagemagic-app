@@ -126,7 +126,7 @@
 }
 
 .tui-image-editor-header-buttons {
-    z-index: 9999;
+    display:none;
 }
 
 .tui-image-editor-controls {
