@@ -126,7 +126,13 @@
 }
 
 .tui-image-editor-header-buttons {
-    display:none;
+    z-index: 9999;
+}
+.tui-image-editor-load-btn {
+    width: 10px;
+}
+.tui-image-editor-download-btn {
+    width: 10px;
 }
 
 .tui-image-editor-controls {
@@ -329,7 +335,7 @@ border-radius: 5px;
     left: 0;
 
   }
-
+ 
 
   .page-header-button {
       width: 200px;
@@ -349,34 +355,23 @@ border-radius: 5px;
 
 
 
-  .progressbar-overlay {
+  .editor-progressbar {
       display: none;
       position: absolute;
       z-index: 9999;
       height: 100vh;
-      width: 100vw;
-      background-color: rgba(0, 0, 0, .5);
-
-  }
-
-  .progressbar-container {
-      border-radius: 7px;
-      background: white;
-      padding: 20px;
-      width: 240px;
-      position:absolute;
-      left: $
-  }
-
-  .progressbar-picture {
-      border: 2px solid #464646;
-      border-radius: 5px;
       width: 100%;
+      background-color: rgba(0, 0, 0, .5);
+      
   }
 
-  .progressbar-text {
-      margin-top: 17px;
-      text-align: center;
+  .editor-progressBar_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 2px;
+    width: 200px;
   }
 
   .displayBlockClass {
