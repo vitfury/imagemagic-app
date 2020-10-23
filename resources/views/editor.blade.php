@@ -71,10 +71,14 @@
 
          function loaderPosition() {
              var canvasOffset = $('.lower-canvas').offset();
-
-             var offsetTop = canvasOffset.top;
-             var offsetLeft = canvasOffset.left;
-
+             var lowerCanvasWidth = $('.lower-canvas').width();
+             var lowerCanvasHeight = $('.lower-canvas').height();
+             var progressBarWidth = $('.progressbar-container').outerWidth();
+             $('#editor-progressBarDiv').show();
+             var progressBarHeight = $('.progressbar-container').innerHeight();
+             $('#editor-progressBarDiv').hide();
+             var offsetTop = canvasOffset.top + (lowerCanvasHeight/2) - (progressBarHeight/2);
+             var offsetLeft = canvasOffset.left + (lowerCanvasWidth/2) - (progressBarWidth/2);
              $('.progressbar-container').css('top', offsetTop);
              $('.progressbar-container').css('left', offsetLeft);
          }
