@@ -24,4 +24,16 @@ class Imagick
 
         return (new TempStorageService())->saveResizedImage($resizedImageContent, strtolower($extension));
     }
+
+    public function trim()
+    {
+        $image = new \Imagick($this->imagePath);
+
+        $extension = $image->getImageFormat();
+        $image->trimImage(100);
+        header("Content-Type: image/$extension");
+        $resizedImageContent = $image->getImageBlob();
+
+        return (new TempStorageService())->saveResizedImage($resizedImageContent, strtolower($extension));
+    }
 }
