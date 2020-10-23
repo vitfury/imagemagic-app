@@ -44,8 +44,9 @@ class ImageController extends BaseController
     {
         $image = $request->get('image');
         $resizedImage = (new ImageService)->resizeImage($image);
-        $encodedImage = (new BackgroundWorker())->remove($resizedImage);
-        return response()->json(['result'=> true, 'image'=> $encodedImage]);
+        $imageWithoutBackground = (new BackgroundWorker())->remove($resizedImage);
+        $trimmedImage = (new ImageService())->trimImage($imageWithoutBackground);
+        return response()->json(['result'=> true, 'image'=> $trimmedImage]);
     }
 
     /**

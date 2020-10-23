@@ -22,4 +22,13 @@ class ImageService
         $resultContent = file_get_contents($resultImagePath);
         return base64_encode($resultContent);
     }
+
+    public function trimImage(string $source) :string
+    {
+        $imageContent = base64_decode($source);
+        $sourceImagePath = (new TempStorageService)->saveTempImage($imageContent);
+        $resultImagePath = (new Imagick($sourceImagePath))->trim();
+        $resultContent = file_get_contents($resultImagePath);
+        return base64_encode($resultContent);
+    }
 }
