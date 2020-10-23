@@ -5,6 +5,7 @@
         <title>Stickerpack creator</title>
         <link type="text/css" href="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.css" rel="stylesheet">
         <link type="text/css" href="../dist/tui-image-editor.css" rel="stylesheet">
+      
         @include("common.head")
         <style>
             @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
@@ -23,7 +24,7 @@
 
 
        <div class="editorheight">
-           <div class="bootstrap row no-gutters editorheight">
+                <div class="bootstrap row no-gutters editorheight">
                     <!-- <div class="col-2 sidebar-wrapper">
                         @include("sidebar")
                             </div> -->
@@ -31,15 +32,16 @@
                     <!-- <div class="col-10 editorheight">
                     <div id="tui-image-editor-container"></div>
                             </div> -->
-            <div id="editor-progressBarDiv" class="progressbar-overlay">
-                <div class="progressbar-container">
-                    <img src="/img/loader.gif" alt="" class="progressbar-picture">
-                    <div class="progressbar-text">Processing your image...</div>
-                </div>
-            </div>
-           <div class="col-12 editorheight">
-               <div id="tui-image-editor-container"></div>
-           </div>
+                    <div id="editor-progressBarDiv" class="progressbar-overlay">
+                        <div class="progressbar-container">
+                            <img src="/img/loader.gif" alt="" class="progressbar-picture">
+                            <div class="progressbar-text">Processing your image...</div>
+                        </div>
+                    </div>
+                    <div class="col-12 editorheight">
+                        <div id="tui-image-editor-container"></div>
+                    </div>
+                   
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.0/fabric.js"></script>
         <script type="text/javascript" src="https://uicdn.toast.com/tui.code-snippet/v1.5.0/tui-code-snippet.min.js"></script>
         <script type="text/javascript" src="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.js"></script>
@@ -50,6 +52,32 @@
         <script type="text/javascript" src="js/theme/black-theme.js"></script>
         <script>
          // Image editor
+         var locale_ru_RU = { 
+                //Filet
+                'Filter':'Фильтр',
+                'Grayscale':'Черно белый',
+                'Invert': 'Инвертировать цвета',
+                'Sepia': 'Светлая сепия',
+                'Sepia2':'Темная сепия',
+                'Sharpen':'Улучшить резкость',
+                'Brightness':'Яркость',
+                'Noise':'Шум',
+                'Pixelate':"Запикселить",
+                //Upload image
+                'Mask': 'Маска',
+                'Load Mask Image': 'Загрузить маску',
+                //
+                'Erase':'',
+                'Crop': 'Обзрезать',
+                'Delete-all': 'Удалить всё',
+
+
+                    // etc...
+                     };
+         var locale_en_EN = {
+             'Mask': 'Add Image',
+             'Load Mask Image': 'Load Image'
+         }
          var imageEditor = new tui.ImageEditor('#tui-image-editor-container', {
              includeUI: {
                  loadImage: {
@@ -57,7 +85,8 @@
                      name: 'Sticker'
                  },
                  theme: blackTheme, // or whiteTheme
-                 initMenu: 'filter',
+                 locale: locale_ru_RU,
+                 initMenu: 'mask',
                  menuBarPosition: 'left'
              },
              cssMaxWidth: 700,
