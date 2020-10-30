@@ -5,6 +5,7 @@
     <meta name="author" content="" />
     <meta name="robots" content="noindex,nofollow">
     <title>Multipurpose - SB Admin Pro</title>
+    <link rel="preload" href="uikit/styles.css" as="style">
     <link href="uikit/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />

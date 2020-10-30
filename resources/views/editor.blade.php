@@ -5,7 +5,7 @@
         <title>Stickerpack creator</title>
         <link type="text/css" href="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.css" rel="stylesheet">
         <link type="text/css" href="../dist/tui-image-editor.css" rel="stylesheet">
-      
+        <link type="text/css" rel="stylesheet" href="../css/fontimport.css">
         @include("common.head")
         <style>
             @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
@@ -32,7 +32,7 @@
                     <!-- <div class="col-10 editorheight">
                     <div id="tui-image-editor-container"></div>
                             </div> -->
-                    <div id="editor-progressBarDiv" class="progressbar-overlay">
+                    <div class="progressbar-overlay image-loader-overlay">
                         <div class="progressbar-container">
                             <img src="/img/loader.gif" alt="" class="progressbar-picture">
                             <div class="progressbar-text">Processing your image...</div>
@@ -103,9 +103,9 @@
              var lowerCanvasWidth = $('.lower-canvas').width();
              var lowerCanvasHeight = $('.lower-canvas').height();
              var progressBarWidth = $('.progressbar-container').outerWidth();
-             $('#editor-progressBarDiv').show();
+             $('.image-loader-overlay').show();
              var progressBarHeight = $('.progressbar-container').innerHeight();
-             $('#editor-progressBarDiv').hide();
+             $('.image-loader-overlay').hide();
              var offsetTop = canvasOffset.top + (lowerCanvasHeight/2) - (progressBarHeight/2);
              var offsetLeft = canvasOffset.left + (lowerCanvasWidth/2) - (progressBarWidth/2);
              $('.progressbar-container').css('top', offsetTop);
