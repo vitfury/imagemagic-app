@@ -5,25 +5,24 @@
     <meta name="author" content="" />
     <meta name="robots" content="noindex,nofollow">
     <title>Multipurpose - SB Admin Pro</title>
-
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-Thin.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-ThinItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-ExtraLight.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-ExtraLightItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-Light.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-LightItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-Regular.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-RegularItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-Medium.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-MediumItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-SemiBold.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-SemiBoldItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-Bold.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-BoldItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-ExtraBold.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-ExtraBoldItalic.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-Black.otf">
-    <link rel="prefetch" href="/assets/fonts/metropolis/Metropolis-BlackItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Thin.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ThinItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraLight.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraLightItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Light.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-LightItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Regular.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-RegularItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Medium.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-MediumItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-SemiBold.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-SemiBoldItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Bold.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-BoldItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraBold.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraBoldItalic.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Black.otf">
+    <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-BlackItalic.otf">
 
     <link rel="preload" href="uikit/styles.css" as="style">
     <link href="uikit/styles.css" rel="stylesheet" />
