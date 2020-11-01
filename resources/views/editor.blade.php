@@ -129,7 +129,7 @@
                 'Undo':'Шаг назад',
                 'Redo':'Шаг вперед',
                 'Delete':'Удалить',
-                'Delete all':'Удалить всё',
+                'DeleteAll':'Удалить всё',
                     // etc...
                      };
          var locale_en_EN = {
