@@ -4,7 +4,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="robots" content="noindex,nofollow">
-    <title>Multipurpose - SB Admin Pro</title>
+    <title>Sticker.pub</title>
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Thin.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ThinItalic.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraLight.otf">
@@ -23,7 +23,7 @@
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraBoldItalic.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Black.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-BlackItalic.otf">
-
+    <link type="text/css" rel="stylesheet" href="../css/fontimport.css">
     <link rel="preload" href="uikit/styles.css" as="style">
     <link href="uikit/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

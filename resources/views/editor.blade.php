@@ -5,7 +5,7 @@
         <title>Stickerpack creator</title>
         <link type="text/css" href="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.css" rel="stylesheet">
         <link type="text/css" href="../dist/tui-image-editor.css" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="../css/fontimport.css">
+        
         @include("common.head")
         <style>
             @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
@@ -53,7 +53,7 @@
         <script>
          // Image editor
          var locale_ru_RU = { 
-                //Filet
+                //Filter
                 'Filter':'Фильтр',
                 'Grayscale':'Черно белый',
                 'Invert': 'Инвертировать цвета',
@@ -63,15 +63,73 @@
                 'Brightness':'Яркость',
                 'Noise':'Шум',
                 'Pixelate':"Запикселить",
+                'Tint':'Оттенок',
+                'Multiply':'Затемнить',
+                'Blend':'Осветлить',
                 //Upload image
-                'Mask': 'Маска',
-                'Load Mask Image': 'Загрузить маску',
-                //
-                'Erase':'',
-                'Crop': 'Обзрезать',
-                'Delete-all': 'Удалить всё',
-
-
+                'Mask': 'Изображение',
+                'Load': 'Загрузить',
+                'Remove Background': 'убрать фон',
+                //Erase
+                'Erase':'Ластик',
+                'Eraser width':'Размер',
+                //Draw
+                'Draw':'Рисовать',
+                'Free':'Кисть',
+                'Straight':'Линия',
+                'Color':'Цвет',
+                'Range':'Размер',
+                //Text
+                'Text':'Текст',
+                'Font family':'Шрифты',
+                'Bold':'Жирный',
+                'Italic':'Курсив',
+                'Underline':'Подчеркнуть',
+                'Left':'Слева',
+                'Center':'Центрировать',
+                'Right':'Справа',
+                'Text color':'Цвет текста',
+                'Text size':'Размер текста',
+                'Stroke size':'Толщина обводки',
+                'Stroke color':'Цвет обводки',
+                'Stroke form':'Форма обводки',
+                'Soft':'Облако',
+                'Chainsaw':'Пила',
+                'Pixelize':'Пиксель',
+                'Fishbone':'Рыбья кость',
+                //Icon
+                'Icon':'Иконка',
+                'Arrow':'Стрелка',
+                'Arrow-2':'Стрелка-2',
+                'Arrow-3':'Стрелка-3',
+                'Star-1':'Звезда',
+                'Star-2':'Звезда-2',
+                'Polygon':'Многоугольник',
+                'Location':'Местонахождение',
+                'Heart':'Сердце',
+                'Bubble':'Сообщение',
+                'Custom icon':'Загрузить иконку',
+                //Flip
+                'Flip':'Отзеркалить',
+                'Flip X':'По вертикали',
+                'Flip Y':'По горизонтали',
+                'Reset':'Сбросить',
+                //Rotate
+                'Rotate':'Вращение',
+                'Angle':'Градус',
+                //Shape
+                'Shape':'Фигуры',
+                'Rectangle':'Квадрат',
+                'Circle':'Круг',
+                'Triangle':'Трехугольник',
+                'Fill':'Цвет заливки',
+                'Stroke':'Цвет фигуры',
+                'Stroke width':'Ширина линий',
+                //ETC
+                'Undo':'Шаг назад',
+                'Redo':'Шаг вперед',
+                'Delete':'Удалить',
+                'DeleteAll':'Удалить всё',
                     // etc...
                      };
          var locale_en_EN = {

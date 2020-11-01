@@ -23,3 +23,11 @@ Route::get('/about', function () {
 Route::get('/editor', function () {
     return view('editor');
 });
+
+Route::get('/contacts', function () {
+    return view('contacts');
+});
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
