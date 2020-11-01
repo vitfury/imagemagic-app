@@ -67,15 +67,69 @@
                 'Multiply':'Затемнить',
                 'Blend':'Осветлить',
                 //Upload image
-                'Mask': 'Маска',
-                'Load Mask Image': 'Загрузить маску',
+                'Mask': 'Изображение',
+                'Load': 'Загрузить',
+                'Remove Background': 'убрать фон',
                 //Erase
-                'Erase':'Стирачка',
-                'Eraser width':'Ширина стирачки',
+                'Erase':'Ластик',
+                'Eraser width':'Размер',
                 //Draw
-                
-
-
+                'Draw':'Рисовать',
+                'Free':'Кисть',
+                'Straight':'Линия',
+                'Color':'Цвет',
+                'Range':'Размер',
+                //Text
+                'Text':'Текст',
+                'Font family':'Шрифты',
+                'Bold':'Жирный',
+                'Italic':'Курсив',
+                'Underline':'Подчеркнуть',
+                'Left':'Слева',
+                'Center':'Центрировать',
+                'Right':'Справа',
+                'Text color':'Цвет текста',
+                'Text size':'Размер текста',
+                'Stroke size':'Толщина обводки',
+                'Stroke color':'Цвет обводки',
+                'Stroke form':'Форма обводки',
+                'Soft':'Облако',
+                'Chainsaw':'Пила',
+                'Pixelize':'Пиксель',
+                'Fishbone':'Рыбья кость',
+                //Icon
+                'Icon':'Иконка',
+                'Arrow':'Стрелка',
+                'Arrow-2':'Стрелка-2',
+                'Arrow-3':'Стрелка-3',
+                'Star-1':'Звезда',
+                'Star-2':'Звезда-2',
+                'Polygon':'Многоугольник',
+                'Location':'Местонахождение',
+                'Heart':'Сердце',
+                'Bubble':'Сообщение',
+                'Custom icon':'Загрузить иконку',
+                //Flip
+                'Flip':'Отзеркалить',
+                'Flip X':'По вертикали',
+                'Flip Y':'По горизонтали',
+                'Reset':'Сбросить',
+                //Rotate
+                'Rotate':'Вращение',
+                'Angle':'Градус',
+                //Shape
+                'Shape':'Фигуры',
+                'Rectangle':'Квадрат',
+                'Circle':'Круг',
+                'Triangle':'Трехугольник',
+                'Fill':'Цвет заливки',
+                'Stroke':'Цвет фигуры',
+                'Stroke width':'Ширина линий',
+                //ETC
+                'Undo':'Шаг назад',
+                'Redo':'Шаг вперед',
+                'Delete':'Удалить',
+                'Delete all':'Удалить всё',
                     // etc...
                      };
          var locale_en_EN = {
