@@ -4,7 +4,7 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <meta name="robots" content="noindex,nofollow">
-    <title>Multipurpose - SB Admin Pro</title>
+    <title>Sticker.pub</title>
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Thin.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ThinItalic.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraLight.otf">
