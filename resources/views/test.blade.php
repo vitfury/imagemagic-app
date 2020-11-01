@@ -1,1 +1,0 @@
-tutu text karo4e

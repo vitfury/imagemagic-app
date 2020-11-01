@@ -16,7 +16,7 @@
                                 <ul class="navbar-nav ml-auto mr-lg-5">
                                     <li class="nav-item"><a class="nav-link" href="index.html">Home </a></li>
                                     <li class="nav-item"><a class="nav-link" href="index.html">Sticker gallery </a></li>
-                                    <li class="nav-item"><a class="nav-link" href="index.html">Contacts </a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contacts">Contacts </a></li>
                                     <li class="nav-item"><a class="nav-link" href="index.html">About us </a></li>
                                     <li class="nav-item"><a class="nav-link" href="index.html">FAQ </a></li>
 
