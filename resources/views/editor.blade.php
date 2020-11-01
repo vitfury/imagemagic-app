@@ -53,7 +53,7 @@
         <script>
          // Image editor
          var locale_ru_RU = { 
-                //Filet
+                //Filter
                 'Filter':'Фильтр',
                 'Grayscale':'Черно белый',
                 'Invert': 'Инвертировать цвета',
@@ -63,13 +63,17 @@
                 'Brightness':'Яркость',
                 'Noise':'Шум',
                 'Pixelate':"Запикселить",
+                'Tint':'Оттенок',
+                'Multiply':'Затемнить',
+                'Blend':'Осветлить',
                 //Upload image
                 'Mask': 'Маска',
                 'Load Mask Image': 'Загрузить маску',
-                //
-                'Erase':'',
-                'Crop': 'Обзрезать',
-                'Delete-all': 'Удалить всё',
+                //Erase
+                'Erase':'Стирачка',
+                'Eraser width':'Ширина стирачки',
+                //Draw
+                
 
 
                     // etc...
