@@ -27,3 +27,7 @@ Route::get('/editor', function () {
 Route::get('/contacts', function () {
     return view('contacts');
 });
+
+Route::get('/gallery', function () {
+    return view('gallery');
+});
