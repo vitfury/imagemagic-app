@@ -1,6 +1,6 @@
 <nav class="navbar navbar-marketing navbar-expand-lg bg-white navbar-light">
     <div class="container headerlogos">
-        <a class="logostylesdesktop" href="index.html"><img class="logostylesdesktop" src="img/logo.png" alt="logo"></a>
+        <a class="logostylesdesktop" href="/"><img class="logostylesdesktop" src="img/logo.png" alt="logo"></a>
         <div class="logo-mobile">
             <a class="Logo-mobile-fox-item" href="/"><img class="logostylemobilefox" src="img/fox.png" alt="logo"></a>
             <a class="" href="index.html"><img class="logostylemobilesign" src="img/sign.png" alt="logo"></a>
