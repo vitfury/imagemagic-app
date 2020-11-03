@@ -342,9 +342,16 @@ border-radius: 5px;
   .btn__position {
       margin-left: 0px !important;
   }
+  .navbar-collapse__position {
+      position: relative;
+  }
 
-  .navbar__heigth {
-      height: 70px;
+  .navbar-loginbutton__center {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
   }
 
 
