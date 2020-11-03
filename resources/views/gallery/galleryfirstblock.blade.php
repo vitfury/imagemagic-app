@@ -17,10 +17,9 @@
                         <div class="container">
                             <div class="row">
                                 <div class="col-md-6 col-xl-4 mb-5 mt-n5">
-                                    <a class="card card-portfolio h-100" href="#!"
-                                        ><img class="card-img-top" src="img/stickergallery/firststicker.webp" alt="..." />
-                                        <div class="card-body"><div class="card-title">Book</div></div></a
-                                    >
+                                    <a class="card card-portfolio h-100" href="tg://addstickers?set=Meme_stickers"
+                                        ><img class="card-img-top" src="img/stickergallery/2.png" alt="..." />
+                                        <div class="card-body"><div class="card-title">click to get these stickers</div></div></a>
                                 </div>
                                 <div class="col-md-6 col-xl-4 mb-5 mt-md-n5">
                                     <a class="card card-portfolio h-100" href="#!"
