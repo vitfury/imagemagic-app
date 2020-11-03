@@ -1,6 +1,7 @@
 
 .tui-image-editor-container .tui-image-editor {
     background: url(../img/transparency.png);
+    background-size: 100%;
 }
 
 
@@ -97,7 +98,7 @@
 
 
 .editor-sidebar-stickers {
-   
+
 }
 
 .editor-sidebar-controls {
@@ -131,11 +132,11 @@
 }
 
 .tui-image-editor-controls {
-  
+
 }
 
 .tui-image-editor-main-container {
-    
+
 }
 .tui-image-editor-header {
     background-color: #151515 !important;
@@ -172,17 +173,12 @@
     padding-bottom: 7rem !important;
 }
 
-.foursblock-main-page {
-    padding-top: 6rem !important;
-    padding-bottom: 6rem !important;
-}
-
 
 .logostylesdesktop {
-    height: 96px;
+    height: 105px;
     position: relative;
     z-index: 3;
-    top: 10px;
+    top: 5px;
 }
 
 .logostylemobilefox {
@@ -330,7 +326,7 @@ border-radius: 5px;
     left: 0;
 
   }
- 
+
 
   .page-header-button {
       width: 200px;
@@ -344,7 +340,7 @@ border-radius: 5px;
   }
 
   .navbar__heigth {
-      height: 70px;
+      height: 90px;
   }
 
 
