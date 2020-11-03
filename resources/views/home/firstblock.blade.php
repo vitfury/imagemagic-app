@@ -2,16 +2,16 @@
     <div class="page-header-content mb-n5 mt-5">
         <div class="container">
             <div class="row  justify-content-center align-items-center">
-                <div class="col-lg-6 text-center">
-                    <h1 class="page-header-title">Sticker generation tool</h1>
-                    <p class="page-header-text mb-5">First online editor, that allows you to create awesome stickers in just a few clicks, and share it with your friends in <a>WhatsApp</a> and <a>Telegram</a></p>
+                <div class="col-lg-8 text-left">
+                    <h1 class="page-header-title">First online Sticker editor</h1>
+                    <p class="page-header-text mb-5">It allows you to easily create awesome stickers in just a few clicks, and share it with your friends in <a>WhatsApp</a> and <a>Telegram</a></p>
                     <div class="mb-5 mb-lg-0">
 
                     <a class="btn-teal btn rounded-pill px-4 ml-lg-4 btn__position" href="editor">Open Editor</a>
                     </div>
                 </div>
-                <div class="col-lg-6 z-1">
-                    <div class="device-wrapper mx-auto mb-n15">
+                <div class="col-lg-4 z-1">
+                    <div class="device-wrapper mx-auto">
                         <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                             <div class="screen"><img class="img-fluid z-1" src="img/mobilescreenshot.png" /></div>
                         </div>

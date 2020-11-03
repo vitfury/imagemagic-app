@@ -1,4 +1,4 @@
-<section class="bg-light text-center py-15">
+<section class="bg-light text-center pt-5 pb-15">
     <div class="container mt-5">
         <div class="row align-items-center justify-content-center">
             <div class="col-lg-6 order-0 order-lg-1 mb-5 mb-lg-0 text-left" data-aos="fade-left">
