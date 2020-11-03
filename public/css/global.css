@@ -5,7 +5,9 @@
 }
 
 
-
+.card-portfolio__test-varian2 {
+    background: none !important;
+}
 
 .editorheight {
     height: 100vh;
@@ -215,6 +217,18 @@
 
     }
 
+    .navbar-collapse__position {
+        position: relative;
+    }
+
+    .navbar-loginbutton__center {
+      margin: 0;
+      position: absolute;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+
     .logo-mobile .Logo-mobile-fox-item {
         z-index: 9999;
         transform: rotate(6deg);
@@ -339,9 +353,6 @@ border-radius: 5px;
       margin-left: 0px !important;
   }
 
-  .navbar__heigth {
-      height: 90px;
-  }
 
 
 
