@@ -18,18 +18,18 @@
                             <div class="row">
                                 <div class="col-md-6 col-xl-4 mb-5 mt-n5">
                                     <a class="card card-portfolio h-100" href="tg://addstickers?set=Meme_stickers"
-                                        ><img class="card-img-top" src="img/stickergallery/2.png" alt="..." />
+                                        ><img class="card-img-top" src="img/stickergallery/1.png" alt="..." />
                                         <div class="card-body"><div class="card-title">click to get these stickers</div></div></a>
                                 </div>
                                 <div class="col-md-6 col-xl-4 mb-5 mt-md-n5">
-                                    <a class="card card-portfolio h-100" href="#!"
-                                        ><img class="card-img-top" src="https://source.unsplash.com/Ecnx13MEPK0/700x500" alt="..." />
+                                    <a class="card card-portfolio h-100 card-portfolio__test-varian2" href="tg://addstickers?set=thereforu"
+                                        ><img class="card-img-top" src="img/stickergallery/2.png" alt="..." />
                                         <div class="card-body"><div class="card-title">Flower Mug</div></div></a
                                     >
                                 </div>
                                 <div class="col-md-6 col-xl-4 mb-5 mt-xl-n5">
                                     <a class="card card-portfolio h-100" href="#!"
-                                        ><img class="card-img-top" src="https://source.unsplash.com/eUCy1jb_B7I/700x500" alt="..." />
+                                        ><img class="card-img-top" src="img/stickergallery/3.png" alt="..." />
                                         <div class="card-body"><div class="card-title">Cactus Display</div></div></a
                                     >
                                 </div>

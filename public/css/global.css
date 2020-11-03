@@ -4,7 +4,9 @@
 }
 
 
-
+.card-portfolio__test-varian2 {
+    background: none !important;
+}
 
 .editorheight {
     height: 100vh;
