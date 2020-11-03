@@ -5,7 +5,7 @@
         <title>Stickerpack creator</title>
         <link type="text/css" href="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.css" rel="stylesheet">
         <link type="text/css" href="../dist/tui-image-editor.css" rel="stylesheet">
-        
+
         @include("common.head")
         <style>
             @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
@@ -41,7 +41,7 @@
                     <div class="col-12 editorheight">
                         <div id="tui-image-editor-container"></div>
                     </div>
-                   
+
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.0/fabric.js"></script>
         <script type="text/javascript" src="https://uicdn.toast.com/tui.code-snippet/v1.5.0/tui-code-snippet.min.js"></script>
         <script type="text/javascript" src="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.js"></script>
@@ -52,7 +52,7 @@
         <script type="text/javascript" src="js/theme/black-theme.js"></script>
         <script>
          // Image editor
-         var locale_ru_RU = { 
+         var locale_ru_RU = {
                 //Filter
                 'Filter':'Фильтр',
                 'Grayscale':'Черно белый',
