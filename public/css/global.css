@@ -171,8 +171,7 @@
 
 
 .page-header {
-    padding-top: 3rem !important;
-    padding-bottom: 7rem !important;
+    padding-top: 1rem !important;
 }
 
 
@@ -401,4 +400,42 @@ border-radius: 5px;
 
 [data-device="iPhoneX"] {
     transform: scale(0.9);
+}
+
+
+.invisible-pacifico {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-family: 'Pacifico', bold;
+}
+.invisible-asmsatic {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-family: 'Amatic SC', bold;
+}
+.invisible-Play {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-family: 'Play', bold;
+}
+.invisible-Caveat {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-family: 'Caveat', bold;
+}
+.invisible-PressStart {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-family: 'Press Start 2P', bold;
+}
+.invisible-MarckSript {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    font-family: 'Marck Script', bold;
 }
