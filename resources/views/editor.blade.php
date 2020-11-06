@@ -143,7 +143,7 @@
                      name: 'Sticker'
                  },
                  theme: blackTheme, // or whiteTheme
-                 locale: locale_ru_RU,
+                 locale: locale_en_EN,
                  initMenu: 'mask',
                  menuBarPosition: 'left'
              },

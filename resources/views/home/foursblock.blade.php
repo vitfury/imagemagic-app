@@ -5,65 +5,63 @@
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="text-center">
-                    <div class="text-xs text-uppercase-expanded text-primary mb-2">Application Features</div>
-                    <h2 class="mb-5">We have a simple solution to a complex problem</h2>
+                    <div class="text-xs text-uppercase-expanded text-primary mb-2">Filters</div>
+                    <h2 class="mb-5">Use our filters to adjust your photo</h2>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up">
-                <a class="card text-center text-decoration-none h-100 lift" href="#!"
-                ><div class="card-body py-5">
+                <a class="card text-center text-decoration-none h-100 lift" href="#!">
+                    <div class="card-body py-5">
                         <div class="icon-stack icon-stack-lg bg-green-soft text-green mb-4"><i data-feather="layers"></i></div>
-                        <h5>Components</h5>
-                        <p class="card-text small">Our product is full of customized and extendable components.</p>
-                    </div></a
-                >
+                        <h5>Remove background</h5>
+                        <p class="card-text small">It works like magic. Upload your photo, and watch the results</p>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
-                <a class="card text-center text-decoration-none h-100 lift" href="#!"
-                ><div class="card-body py-5">
+                <a class="card text-center text-decoration-none h-100 lift" href="#!">
+                    <div class="card-body py-5">
                         <div class="icon-stack icon-stack-lg bg-red-soft text-red mb-4"><i data-feather="tool"></i></div>
-                        <h5>Utilities</h5>
-                        <p class="card-text small">Powerful utility classes makes it easy to customize your product.</p>
-                    </div></a
-                >
+                        <h5>Drawing</h5>
+                        <p class="card-text small">Draw any figures you want, with our brush tool</p>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="150">
-                <a class="card text-center text-decoration-none h-100 lift" href="#!"
-                ><div class="card-body py-5">
+                <a class="card text-center text-decoration-none h-100 lift" href="#!">
+                    <div class="card-body py-5">
                         <div class="icon-stack icon-stack-lg bg-yellow-soft text-yellow mb-4"><i data-feather="layout"></i></div>
-                        <h5>Layouts</h5>
-                        <p class="card-text small">Our flex based layouts offer a beautifully reponsive approach.</p>
-                    </div></a
-                >
+                        <h5>Captions</h5>
+                        <p class="card-text small">Write awesome captions with variety of different fonts and strokes</p>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-aos="fade-up">
-                <a class="card text-center text-decoration-none h-100 lift" href="#!"
-                ><div class="card-body py-5">
+                <a class="card text-center text-decoration-none h-100 lift" href="#!">
+                    <div class="card-body py-5">
                         <div class="icon-stack icon-stack-lg bg-purple-soft text-purple mb-4"><i data-feather="book"></i></div>
-                        <h5>Documentation</h5>
-                        <p class="card-text small">Our code is fully documented with instructions and usage examples.</p>
-                    </div></a
-                >
+                        <h5>Icons</h5>
+                        <p class="card-text small">Add existing icons, or create your own by uploading a sketch</p>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
-                <a class="card text-center text-decoration-none h-100 lift" href="#!"
-                ><div class="card-body py-5">
+                <a class="card text-center text-decoration-none h-100 lift" href="#!"><div class="card-body py-5">
                         <div class="icon-stack icon-stack-lg bg-blue-soft text-blue mb-4"><i data-feather="code"></i></div>
-                        <h5>Code Snippets</h5>
-                        <p class="card-text small">Use code snippets to easily drop new components into your project.</p>
-                    </div></a
-                >
+                        <h5>Shapes</h5>
+                        <p class="card-text small">Add shapes and figures of any kind with our powerful editor</p>
+                    </div>
+                </a>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                <a class="card text-center text-decoration-none h-100 lift" href="#!"
-                ><div class="card-body py-5">
+                <a class="card text-center text-decoration-none h-100 lift" href="#!"><div class="card-body py-5">
                         <div class="icon-stack icon-stack-lg bg-orange-soft text-orange mb-4"><i data-feather="package"></i></div>
                         <h5>Plugins</h5>
                         <p class="card-text small">We've implemented powerful third party plugins for added functionality.</p>
-                    </div></a
-                >
+                    </div>
+                </a>
             </div>
         </div>
 
