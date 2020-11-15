@@ -100,4 +100,10 @@ return [
         ],
     ],
 
+    'google' => [
+        'client_id' => env('GOOGLE_AUTH_CLIENT_ID'),
+        'client_secret' => env('GOOGLE_AUTH_CLIENT_SECRET'),
+        'redirect' => env('APP_URL').'/login/google/callback'
+    ]
+
 ];
