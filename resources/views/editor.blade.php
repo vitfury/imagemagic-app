@@ -5,7 +5,7 @@
         <title>Stickerpack creator</title>
         <link type="text/css" href="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.css" rel="stylesheet">
         <link type="text/css" href="../dist/tui-image-editor.css" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400;700&family=Marck+Script&family=Pacifico&family=Play:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
         @include("common.head")
         <style>
             @import url(http://fonts.googleapis.com/css?family=Noto+Sans);
@@ -22,7 +22,7 @@
     <body>
 
 
-
+            @include ("common.invisible-fonts")
        <div class="editorheight">
                 <div class="bootstrap row no-gutters editorheight">
                     <!-- <div class="col-2 sidebar-wrapper">
