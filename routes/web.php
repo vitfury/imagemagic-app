@@ -11,7 +11,10 @@
 |
 */
 
-Route::get('/', [\App\Http\Controllers\HomeController::class, 'index']);
+Route::get('/', [
+    'as' => 'home',
+    'uses' => 'HomeController@index'
+]);
 
 
 Route::get('/about', function () {
@@ -22,6 +25,10 @@ Route::get('/editor', [\App\Http\Controllers\EditorController::class, 'index']);
 
 Route::get('/contacts', function () {
     return view('contacts');
+});
+
+Route::get('/account', function () {
+    return view('layouts.app');
 });
 
 Route::get('/gallery', function () {
