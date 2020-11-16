@@ -40,6 +40,14 @@ Auth::routes();
 Route::get('login/{provider}', [\App\Http\Controllers\Auth\LoginController::class, 'redirectToProvider']);
 Route::get('login/{provider}/callback', [\App\Http\Controllers\Auth\LoginController::class, 'handleProviderCallback']);
 
-Route::get('/FAQ', function () {
-    return view('FAQ');
+Route::get('/faq', function () {
+    return view('faq');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('common.termofuse.privacy-policy');
+});
+
+Route::get('/deleted', function () {
+    return view('common.termofuse.deleted');
 });

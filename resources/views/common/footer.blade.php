@@ -57,7 +57,7 @@
                         <div class="row align-items-center">
                             <div class="col-md-6 small">Copyright &copy; Your Website 2020</div>
                             <div class="col-md-6 text-md-right small">
-                                <a href="javascript:void(0);">Privacy Policy</a>
+                                <a href="/privacy-policy">Privacy Policy</a>
                                 &middot;
                                 <a href="javascript:void(0);">Terms &amp; Conditions</a>
                             </div>
