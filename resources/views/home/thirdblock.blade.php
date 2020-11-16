@@ -4,17 +4,17 @@
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i data-feather="layers"></i></div>
                 <h3>Easy to use</h3>
-                <p class="mb-0">Our customizable, block-based build system makes creating your next project fast and easy!</p>
+                <p class="mb-0">This editor created to be fast and simple. Enjoy essential design without any unnecessary features</p>
             </div>
             <div class="col-lg-4 mb-5 mb-lg-0">
                 <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i data-feather="smartphone"></i></div>
-                <h3>Modern responsive design</h3>
-                <p class="mb-0">Featuring carefully crafted, mobile-first components, your end product will function beautifully on any device!</p>
+                <h3>Unique</h3>
+                <p class="mb-0">We have created first service, that allows you to create stickers fast and easy using just a browser</p>
             </div>
             <div class="col-lg-4">
                 <div class="icon-stack icon-stack-xl bg-gradient-primary-to-secondary text-white mb-4"><i data-feather="code"></i></div>
-                <h3>Complete documentation</h3>
-                <p class="mb-0">All of the layouts, page sections, components, and utilities are fully covered in this products docs.</p>
+                <h3>All in one</h3>
+                <p class="mb-0">You need only one editor, to remove background, crop or resize image, add a captions, icons or draw something</p>
             </div>
         </div>
     </div>

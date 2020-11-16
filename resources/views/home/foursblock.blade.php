@@ -14,7 +14,7 @@
             <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up">
                 <a class="card text-center text-decoration-none h-100 lift" href="#!">
                     <div class="card-body py-5">
-                        <div class="icon-stack icon-stack-lg bg-green-soft text-green mb-4"><i data-feather="layers"></i></div>
+                        <div class="icon-stack icon-stack-lg bg-green-soft text-green mb-4"><i data-feather="user"></i></div>
                         <h5>Remove background</h5>
                         <p class="card-text small">It works like magic. Upload your photo, and watch the results</p>
                     </div>
@@ -23,16 +23,16 @@
             <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="100">
                 <a class="card text-center text-decoration-none h-100 lift" href="#!">
                     <div class="card-body py-5">
-                        <div class="icon-stack icon-stack-lg bg-red-soft text-red mb-4"><i data-feather="tool"></i></div>
-                        <h5>Drawing</h5>
-                        <p class="card-text small">Draw any figures you want, with our brush tool</p>
+                        <div class="icon-stack icon-stack-lg bg-red-soft text-red mb-4"><i data-feather="edit-3"></i></div>
+                        <h5>Filter</h5>
+                        <p class="card-text small">Use our filters to adjust brightness, to make your photo sharpen or brighten</p>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6 mb-5" data-aos="fade-up" data-aos-delay="150">
                 <a class="card text-center text-decoration-none h-100 lift" href="#!">
                     <div class="card-body py-5">
-                        <div class="icon-stack icon-stack-lg bg-yellow-soft text-yellow mb-4"><i data-feather="layout"></i></div>
+                        <div class="icon-stack icon-stack-lg bg-yellow-soft text-yellow mb-4"><i data-feather="type"></i></div>
                         <h5>Captions</h5>
                         <p class="card-text small">Write awesome captions with variety of different fonts and strokes</p>
                     </div>
@@ -41,7 +41,7 @@
             <div class="col-lg-4 col-md-6 mb-5 mb-lg-0" data-aos="fade-up">
                 <a class="card text-center text-decoration-none h-100 lift" href="#!">
                     <div class="card-body py-5">
-                        <div class="icon-stack icon-stack-lg bg-purple-soft text-purple mb-4"><i data-feather="book"></i></div>
+                        <div class="icon-stack icon-stack-lg bg-purple-soft text-purple mb-4"><i class="fas fa-icons"></i></div>
                         <h5>Icons</h5>
                         <p class="card-text small">Add existing icons, or create your own by uploading a sketch</p>
                     </div>
@@ -49,17 +49,17 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
                 <a class="card text-center text-decoration-none h-100 lift" href="#!"><div class="card-body py-5">
-                        <div class="icon-stack icon-stack-lg bg-blue-soft text-blue mb-4"><i data-feather="code"></i></div>
-                        <h5>Shapes</h5>
-                        <p class="card-text small">Add shapes and figures of any kind with our powerful editor</p>
+                        <div class="icon-stack icon-stack-lg bg-blue-soft text-blue mb-4"><i data-feather="edit-3"></i></div>
+                        <h5>Drawing</h5>
+                        <p class="card-text small">Draw any figures you want with our brush tool</p>
                     </div>
                 </a>
             </div>
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
                 <a class="card text-center text-decoration-none h-100 lift" href="#!"><div class="card-body py-5">
-                        <div class="icon-stack icon-stack-lg bg-orange-soft text-orange mb-4"><i data-feather="package"></i></div>
-                        <h5>Plugins</h5>
-                        <p class="card-text small">We've implemented powerful third party plugins for added functionality.</p>
+                        <div class="icon-stack icon-stack-lg bg-orange-soft text-orange mb-4"><i class="fas fa-upload"></i></div>
+                        <h5>Publish</h5>
+                        <p class="card-text small">Follow our guides to publish your stickers to WhatsApp and Telegram</p>
                     </div>
                 </a>
             </div>

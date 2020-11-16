@@ -20,9 +20,7 @@ Route::get('/about', function () {
     return view('about');
 });
 
-Route::get('/editor', function () {
-    return view('editor');
-});
+Route::get('/editor', [\App\Http\Controllers\EditorController::class, 'index']);
 
 Route::get('/contacts', function () {
     return view('contacts');
@@ -31,6 +29,11 @@ Route::get('/contacts', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Auth::routes();
+
+Route::get('login/{provider}', [\App\Http\Controllers\Auth\LoginController::class, 'redirectToProvider']);
+Route::get('login/{provider}/callback', [\App\Http\Controllers\Auth\LoginController::class, 'handleProviderCallback']);
 
 Route::get('/FAQ', function () {
     return view('FAQ');
