@@ -44,6 +44,12 @@ return [
         'client_id' => env('FACEBOOK_AUTH_CLIENT_ID'),
         'client_secret' => env('FACEBOOK_AUTH_CLIENT_SECRET'),
         'redirect' => env('APP_URL').'/login/facebook/callback'
+    ],
+
+    'github' => [
+        'client_id' => env('GITHUB_AUTH_CLIENT_ID'),
+        'client_secret' => env('GITHUB_AUTH_CLIENT_SECRET'),
+        'redirect' => env('APP_URL').'/login/github/callback'
     ]
 
 ];
