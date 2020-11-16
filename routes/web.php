@@ -32,3 +32,7 @@ Auth::routes();
 
 Route::get('login/{provider}', [\App\Http\Controllers\Auth\LoginController::class, 'redirectToProvider']);
 Route::get('login/{provider}/callback', [\App\Http\Controllers\Auth\LoginController::class, 'handleProviderCallback']);
+
+Route::get('/FAQ', function () {
+    return view('FAQ');
+});
