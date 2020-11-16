@@ -12,9 +12,9 @@
                 <li class="nav-item"><a class="nav-link" href="gallery">Sticker gallery </a></li>
                 <li class="nav-item"><a class="nav-link" href="contacts">Contacts </a></li>
                 <li class="nav-item"><a class="nav-link" href="index.html">About us </a></li>
-                <li class="nav-item"><a class="nav-link" href="index.html">FAQ </a></li>
+                <li class="nav-item"><a class="nav-link" href="FAQ">FAQ </a></li>
             </ul>
-            <!--<a class="btn-teal btn rounded-pill px-4 ml-lg-4 navbar-loginbutton__center" href="https://shop.startbootstrap.com/sb-ui-kit-pro">Login<i class="fas fa-arrow-right ml-1"></i></a>-->
+            <a class="btn-teal btn rounded-pill px-4 ml-lg-4 navbar-loginbutton__center" href="https://shop.startbootstrap.com/sb-ui-kit-pro">Login<i class="fas fa-arrow-right ml-1"></i></a>
         </div>
     </div>
 </nav>

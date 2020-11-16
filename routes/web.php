@@ -31,3 +31,7 @@ Route::get('/contacts', function () {
 Route::get('/gallery', function () {
     return view('gallery');
 });
+
+Route::get('/FAQ', function () {
+    return view('FAQ');
+});
