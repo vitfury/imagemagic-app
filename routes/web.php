@@ -32,5 +32,5 @@ Route::get('/gallery', function () {
 
 Auth::routes();
 
-Route::get('login/google', [\App\Http\Controllers\Auth\LoginController::class, 'redirectToProvider']);
-Route::get('login/google/callback', [\App\Http\Controllers\Auth\LoginController::class, 'handleProviderCallback']);
+Route::get('login/{provider}', [\App\Http\Controllers\Auth\LoginController::class, 'redirectToProvider']);
+Route::get('login/{provider}/callback', [\App\Http\Controllers\Auth\LoginController::class, 'handleProviderCallback']);
