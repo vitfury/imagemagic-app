@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-     @include ("common.head") </head>
+     @include ("common.head")
+    </head>
     <body>
         <div id="layoutDefault">
             <div id="layoutDefault_content">
