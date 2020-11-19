@@ -59,7 +59,7 @@
                             <div class="col-md-6 text-md-right small">
                                 <a href="/privacy-policy">Privacy Policy</a>
                                 &middot;
-                                <a href="javascript:void(0);">Terms &amp; Conditions</a>
+                                <a href="/termandconditions">Terms &amp; Conditions</a>
                             </div>
                         </div>
                     </div>

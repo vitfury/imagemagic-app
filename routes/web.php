@@ -51,3 +51,7 @@ Route::get('/privacy-policy', function () {
 Route::get('/deleted', function () {
     return view('common.termofuse.deleted');
 });
+
+Route::get('/termandconditions', function () {
+    return view('common.termofuse.termandconditions');
+});

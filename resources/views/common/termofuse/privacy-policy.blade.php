@@ -6,10 +6,10 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-lg-10 mt-5">
-                <h1>Terms &amp; Privacy</h1>
+                <h1>Privacy Policy</h1>
                 <p class="lead">Last updated: November 2020</p>
                 <hr class="my-5" />
-                <h2>Privacy Policy of <span class="website_url">https://sticker.pub</span></h2>
+                <h2>Privacy Policy of <span class="website_url">Sticker.pub</span></h2>
                 <p>At <span class="website_name">Sticker.pub</span>, we collect and manage user data according to the following Privacy Policy.</p>
                 <h3>Data Collected</h3>
                 <p>We collect information you provide directly to us. For example, we collect information when you create an account, subscribe, participate in any interactive features of our services, fill out a form, request customer support or otherwise communicate with us. The types of information we may collect include your name, email address, postal address, credit card information and other contact or identifying information you choose to provide.</p>
