@@ -36,15 +36,19 @@
                         <div class="col-xl-5 col-lg-6 col-md-8 col-sm-11">
                             <!-- Social login form-->
                             <div class="card my-5">
-                                <div class="card-body p-5 text-center">
+                                <div class="card-body text-center">
                                     <div class="h3 font-weight-light mb-3">Sign In</div>
                                     <!-- Social login links-->
-                                    <a class="btn btn-icon btn-facebook mx-1 social-buttons" href="/login/facebook"><i class="fab fa-facebook-f fa-fw fa-sm social-buttons__svg"></i></a>
-                                    <a class="btn btn-icon btn-github mx-1 social-buttons" href="/login/github"><i class="fab fa-github fa-fw fa-sm social-buttons__svg"></i></a>
-                                    <a class="btn btn-icon btn-google mx-1 social-buttons" href="/login/google"><i class="fab fa-google fa-fw fa-sm social-buttons__svg"></i></a>
+                                    <div class="socialsLoginLinks">
+                                        <a class="btn btn-icon btn-facebook mx-1 social-buttons" href="/login/facebook"><i class="fab fa-facebook-f fa-fw fa-sm social-buttons__svg"></i></a>
+                                        <a class="btn btn-icon btn-github mx-1 social-buttons" href="/login/github"><i class="fab fa-github fa-fw fa-sm social-buttons__svg"></i></a>
+                                        <a class="btn btn-icon btn-google mx-1 social-buttons" href="/login/google"><i class="fab fa-google fa-fw fa-sm social-buttons__svg"></i></a>
+                                    </div>
                                 </div>
+
+
                                 <hr class="my-0" />
-                                <div class="card-body p-5">
+                                <div class="card-body">
                                     <!-- Login form-->
                                     <form method="POST" action="{{ route('login') }}">
                                         @csrf
