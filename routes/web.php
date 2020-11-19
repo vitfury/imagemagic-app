@@ -23,6 +23,8 @@ Route::get('/about', function () {
 
 Route::get('/editor', [\App\Http\Controllers\EditorController::class, 'index']);
 
+Route::get('/delete', [\App\Http\Controllers\DeleteController::class, 'index']);
+
 Route::get('/contacts', function () {
     return view('contacts');
 });
