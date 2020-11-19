@@ -23,6 +23,6 @@ class EditorController extends Controller
      */
     public function index()
     {
-        return view('edito');
+        return view('editor');
     }
 }
