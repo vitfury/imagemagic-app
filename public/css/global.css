@@ -439,3 +439,26 @@ border-radius: 5px;
     left: -9999px;
     font-family: 'Marck Script', bold;
 }
+
+.tui-image-editor-menu {
+    background: #1b2838 !important;
+}
+
+.tui-image-editor-submenu-style {
+    background: #24354b !important;
+}
+
+.tui-image-editor-align-wrap {
+    background: #d6e2ef !important;
+}
+.tui-image-editor-header {
+    background: #FFFFFF !important;
+    opacity: 1 !important;
+}
+.tui-image-editor {
+    box-shadow: 0 0 30px 2px;
+}
+.tui-image-editor-icpartition {
+    background: #FFFFFF !important;
+    opacity: 0.7;
+}

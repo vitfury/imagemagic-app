@@ -30,7 +30,7 @@ Route::get('/contacts', function () {
 });
 
 Route::get('/account', function () {
-    return view('layouts.app');
+    return view('auth.account');
 });
 
 Route::get('/gallery', function () {

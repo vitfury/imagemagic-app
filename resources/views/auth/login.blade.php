@@ -93,7 +93,7 @@
                                 <div class="card-body px-5 py-4">
                                     <div class="small text-center">
                                         New user?
-                                        <a href="auth-register-social.html">Create an account!</a>
+                                        <a href="/register">Create an account!</a>
                                     </div>
                                 </div>
                             </div>
@@ -101,6 +101,18 @@
                     </div>
                 </div>
             </main>
+            <div id="layoutAuthentication_footer">
+                <footer class="footer mt-auto footer-dark">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6 small"> &copy; Sticker.Pub 2020</div>
+                            <div class="col-md-6 text-md-right small">
+                                <a href="/privacy-policy">Privacy Policy</a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </div>
         </div>
 
     </div>
@@ -109,15 +121,3 @@
     <script src="js/scripts.js"></script>
     </body>
 </html>
-<div id="layoutAuthentication_footer">
-    <footer class="footer mt-auto footer-dark">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-6 small"> &copy; Sticker.Pub 2020</div>
-                <div class="col-md-6 text-md-right small">
-                    <a href="/privacy-policy">Privacy Policy</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-</div>
