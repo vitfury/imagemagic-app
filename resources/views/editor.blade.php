@@ -20,8 +20,14 @@
   crossorigin="anonymous"></script>
     </head>
     <body>
-
-
+       <div class="control-header">
+           <div class="control-header-logo">
+                   <a class="control-header-logo-sign" href="index.html"><img class="control-header-logo-sign-img" src="img/sign.png" alt="logo"></a>
+           </div>
+           <button class="btn-teal btn rounded-pill px-4 ml-lg-4 btn__position control-header-logo-download">
+              Download
+           </button>
+       </div>
             @include ("common.invisible-fonts")
        <div class="editorheight">
                 <div class="bootstrap row no-gutters editorheight">
