@@ -55,6 +55,11 @@ return [
             'visibility' => 'public',
         ],
 
+        'volume' => [
+            'driver' => 'local',
+            'root' => env('STORAGE_VOLUME_PATH'),
+        ],
+
         's3' => [
             'driver' => 's3',
             'key' => env('AWS_ACCESS_KEY_ID'),
