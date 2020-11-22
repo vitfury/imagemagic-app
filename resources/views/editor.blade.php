@@ -21,14 +21,20 @@
                 integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
     </head>
     <body>
-
-
-        @include ("common.invisible-fonts")
-        <div class="editorheight">
-            <div class="bootstrap row no-gutters editorheight">
-            <!-- <div class="col-2 sidebar-wrapper">
-                                @include("sidebar")
-                </div> -->
+       <div class="control-header">
+           <div class="control-header-logo">
+                   <a class="control-header-logo-sign" href="index.html"><img class="control-header-logo-sign-img" src="img/sign.png" alt="logo"></a>
+           </div>
+           <button class="btn-teal btn rounded-pill px-4 ml-lg-4 btn__position control-header-logo-download">
+              Download
+           </button>
+       </div>
+            @include ("common.invisible-fonts")
+       <div class="editorheight">
+                <div class="bootstrap row no-gutters editorheight">
+                    <!-- <div class="col-2 sidebar-wrapper">
+                        @include("sidebar")
+                            </div> -->
 
                 <!-- <div class="col-10 editorheight">
                 <div id="tui-image-editor-container"></div>

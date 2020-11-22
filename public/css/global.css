@@ -10,7 +10,7 @@
 }
 
 .editorheight {
-    height: 100vh;
+    height: 90vh;
 }
 
 .editor-sidebar {
@@ -438,4 +438,55 @@ border-radius: 5px;
     top: -9999px;
     left: -9999px;
     font-family: 'Marck Script', bold;
+}
+
+.tui-image-editor-menu {
+    background: #1b2838 !important;
+}
+
+.tui-image-editor-submenu-style {
+    background: #24354b !important;
+}
+
+.tui-image-editor-align-wrap {
+    background: #d6e2ef !important;
+}
+.tui-image-editor-header {
+    background: #FFFFFF !important;
+    opacity: 1 !important;
+}
+.tui-image-editor {
+    box-shadow: 0 0 30px 2px;
+}
+.tui-image-editor-icpartition {
+    background: #FFFFFF !important;
+    opacity: 0.7;
+}
+
+.tui-image-editor-header {
+    display: none !important;
+}
+
+.control-header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+}
+.tui-image-editor-main {
+    top: 0 !important;
+}
+.control-header-logo-sign-img {
+    height: 5vh;
+    transform: rotate(3deg);
+}
+.control-header-logo-sign {
+    position: relative;
+    top: 2vh;
+    left: 6vh;
+
+}
+.control-header-logo-download {
+    height: 7vh;
+    position: relative;
+    top: 2vh;
 }

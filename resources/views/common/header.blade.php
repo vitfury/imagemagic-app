@@ -15,7 +15,7 @@
                 <li class="nav-item"><a class="nav-link" href="faq">faq </a></li>
             </ul>
                 @auth
-                    <a class="btn-teal btn rounded-pill px-4 ml-lg-4 navbar-loginbutton__center" href="/account">Hello <i class="fas fa-arrow-right ml-1"></i></a>
+                    <a class="btn-teal btn rounded-pill px-4 ml-lg-4 navbar-loginbutton__center" href="/account">{{$user->email}} <i class="fas fa-arrow-right ml-1"></i></a>
                 @endauth
                 @guest
                     <a class="btn-teal btn rounded-pill px-4 ml-lg-4 navbar-loginbutton__center" href="login">Sign in / Sign up<i class="fas fa-arrow-right ml-1"></i></a>
