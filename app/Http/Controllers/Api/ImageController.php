@@ -29,10 +29,10 @@ class ImageController extends BaseController
             $dimensions['width'] = ImageService::DEFAULT_STICKER_WIDTH;
             $dimensions['height'] = ImageService::DEFAULT_STICKER_HEIGHT;
         }
-        $resizedImage = (new ImageService)->resizeImage($image, $dimensions['width'], $dimensions['height']);
+        $resizedImage = (new ImageService)->resizeImage(base64_decode($image), $dimensions['width'], $dimensions['height']);
         return response()->json([
             'result' => true,
-            'image' => $resizedImage
+            'image' => base64_encode($resizedImage)
         ], 200);
     }
 
@@ -43,8 +43,8 @@ class ImageController extends BaseController
     public function removeBackground(Request $request)
     {
         $image = $request->get('image');
-        $resizedImage = (new ImageService)->resizeImage($image);
-        $imageWithoutBackground = (new BackgroundWorker())->remove($resizedImage);
+        $resizedImage = (new ImageService)->resizeImage(base64_decode($image));
+        $imageWithoutBackground = (new BackgroundWorker())->remove(base64_encode($resizedImage));
         $trimmedImage = (new ImageService())->trimImage($imageWithoutBackground);
         return response()->json(['result'=> true, 'image'=> $trimmedImage]);
     }

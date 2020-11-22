@@ -23,10 +23,10 @@
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-ExtraBoldItalic.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-Black.otf">
     <link rel="preload" as="font" crossorigin="anonymous" href="/assets/fonts/metropolis/Metropolis-BlackItalic.otf">
-    <link rel="preload" href="uikit/styles.css" as="style">
-    <link href="uikit/styles.css" rel="stylesheet" />
+    <link rel="preload" href="/uikit/styles.css" as="style">
+    <link href="/uikit/styles.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEBP0KQEXK"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -38,5 +38,11 @@
     <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.24.1/feather.min.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/global.css" />
-  
+    <link rel="stylesheet" href="/css/global.css" />
+    <script src="/js/app.js" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var user = {
+            token: "{{ Auth::user()->api_token}}",
+        }
+    </script>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Entity\Sticker;
 use Illuminate\Http\Request;
 
 class EditorController extends Controller
@@ -24,5 +25,17 @@ class EditorController extends Controller
     public function index()
     {
         return view('editor');
+    }
+
+    public function edit($id)
+    {
+        $sticker = (new Sticker($id));
+        return view(
+            'editor',
+            [
+                'id' => $id,
+                'json' => $sticker->getJson()
+            ]
+        );
     }
 }

@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <title>Stickerpack creator</title>
         <link type="text/css" href="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.css" rel="stylesheet">
-        <link type="text/css" href="../dist/tui-image-editor.css" rel="stylesheet">
+        <link type="text/css" href="/dist/tui-image-editor.css" rel="stylesheet">
         <link
             href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Caveat:wght@400;700&family=Marck+Script&family=Pacifico&family=Play:wght@400;700&family=Press+Start+2P&family=Roboto:wght@400;700&display=swap"
             rel="stylesheet">
@@ -44,17 +44,17 @@
                 </div>
 
                 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/3.6.0/fabric.js"></script>
-                <script type="text/javascript"
-                        src="https://uicdn.toast.com/tui.code-snippet/v1.5.0/tui-code-snippet.min.js"></script>
-                <script type="text/javascript"
-                        src="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.js"></script>
-                <script type="text/javascript"
-                        src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"></script>
-                <script type="text/javascript" src="../dist/tui-image-editor.min.js"></script>
-                <!-- <script type="text/javascript" src="http://0.0.0.0:8080/dist/tui-image-editor.js"></script> -->
-                <script type="text/javascript" src="js/theme/white-theme.js"></script>
-                <script type="text/javascript" src="js/theme/black-theme.js"></script>
+                <script type="text/javascript" src="https://uicdn.toast.com/tui.code-snippet/v1.5.0/tui-code-snippet.min.js"></script>
+                <script type="text/javascript" src="https://uicdn.toast.com/tui-color-picker/v2.2.6/tui-color-picker.js"></script>
+                <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"></script>
+                <script type="text/javascript" src="/dist/tui-image-editor.min.js"></script>
+                <script type="text/javascript" src="/js/theme/black-theme.js"></script>
                 <script>
+
+                    var sticker = {
+                        id: {{$id ?? 0}},
+                        json: '{!! $json ?? '' !!}',
+                    }
                     // Image editor
                     var locale_ru_RU = {
                         //Filter
@@ -140,44 +140,10 @@
                         'Mask': 'Add Image',
                         'Load Mask Image': 'Load Image'
                     }
-                    var imageEditor = new tui.ImageEditor('#tui-image-editor-container', {
-                        includeUI: {
-                            loadImage: {
-                                path: 'img/new.png',
-                                name: 'Sticker'
-                            },
-                            theme: blackTheme, // or whiteTheme
-                            locale: locale_en_EN,
-                            initMenu: 'mask',
-                            menuBarPosition: 'left'
-                        },
-                        cssMaxWidth: 700,
-                        cssMaxHeight: 500,
-                        usageStatistics: false
-                    });
-                    window.onresize = function () {
-                        imageEditor.ui.resizeEditor();
-                        loaderPosition();
-                    }
-
-                    function loaderPosition() {
-                        var canvasOffset = $('.lower-canvas').offset();
-                        var lowerCanvasWidth = $('.lower-canvas').width();
-                        var lowerCanvasHeight = $('.lower-canvas').height();
-                        var progressBarWidth = $('.progressbar-container').outerWidth();
-                        $('.image-loader-overlay').show();
-                        var progressBarHeight = $('.progressbar-container').innerHeight();
-                        $('.image-loader-overlay').hide();
-                        var offsetTop = canvasOffset.top + (lowerCanvasHeight / 2) - (progressBarHeight / 2);
-                        var offsetLeft = canvasOffset.left + (lowerCanvasWidth / 2) - (progressBarWidth / 2);
-                        $('.progressbar-container').css('top', offsetTop);
-                        $('.progressbar-container').css('left', offsetLeft);
-                    }
-
-                    setTimeout(function () {
-                        loaderPosition();
-                    }, 3000);
-
+                </script>
+                <script type="text/javascript" src="/js/editor.js"></script>
+                <script>
+                    Editor.Init();
                 </script>
             </div>
         </div>

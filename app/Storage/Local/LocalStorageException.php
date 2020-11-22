@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Storage\Local;
+namespace App\Storage\Local;
 
 
 class LocalStorageException extends \Exception

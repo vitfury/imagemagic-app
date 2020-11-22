@@ -12,7 +12,7 @@
     <link rel="preload" href="uikit/styles.css" as="style">
     <link href="uikit/styles.css" rel="stylesheet" />
 
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png" />
+    <link rel="icon" type="image/x-icon" href="/assets/img/favicon.png" />
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XEBP0KQEXK"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
