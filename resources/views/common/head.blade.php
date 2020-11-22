@@ -43,6 +43,6 @@
 
     <script type="text/javascript">
         var user = {
-            token: "{{ Auth::user()->api_token}}",
+            token: "{{ Auth::user()->api_token ?? ''}}",
         }
     </script>
