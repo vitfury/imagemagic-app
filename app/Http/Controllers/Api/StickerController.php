@@ -66,7 +66,8 @@ class StickerController extends BaseController
             $request->validate(
                 [
                     'name' => 'required',
-                    'image' => 'required'
+                    'image' => 'required',
+                    'json' => 'required'
                 ]
             );
             $name = $request->get('name');
